@@ -31,6 +31,7 @@ Repeat with the next small task until the video is done.
 | `public/` | Images, audio and fonts used in the video, plus `CREDITS.md`. |
 | `site/index.html` | The web page that plays the video on GitHub Pages. |
 | `.github/workflows/render.yml` | Renders the video on every pull request and publishes it on every push to `main`. |
+| `.github/workflows/copilot-setup-steps.yml` | Prepares GitHub Copilot's cloud environment so it can render still frames to check its work. You do not need to run it. |
 | `AGENTS.md` | Instructions that coding agents read before they work on the project. |
 | `AGENT_LOG.md` | Your record of what you asked the agent and what you checked. |
 
